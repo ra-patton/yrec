@@ -1,4 +1,4 @@
-*.o
-yrec
-fort.20
-__pycache__
+**/*.o
+**/fort.*
+**/__pycache__
+
