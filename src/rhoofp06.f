@@ -103,8 +103,11 @@ C           call esac06 (x,ztab,t6,rhog2,1,0,*999)  ! KC 2025-05-31
 C       call esac06 (x,ztab,t6,rhog3,1,0,*999)
       call esac06 (x,t6,rhog3,1,0,*999)
       p3=eos(1)
-C      if (abs((p3-pnr)/pnr) .lt. 1.D-5) then
-      IF (DABS((P3-PNR)/PNR) .LT. 0.5D-7) THEN
+C Changed the comparison below to use the commented-out value 1.D-5
+C found here to prevent array value eos(5) from growing without bound
+C and crashing the program during certain model runs. - MR 2025-10-10
+      if (abs((p3-pnr)/pnr) .lt. 1.D-5) then
+C      IF (DABS((P3-PNR)/PNR) .LT. 0.5D-7) THEN
         rhoofp06=rhog3
         return
       endif
