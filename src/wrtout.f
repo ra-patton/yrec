@@ -81,7 +81,6 @@ C G Somers 10/14, Add spot common block
      *     HLE(JSON),VGSF(JSON),VGSF0(JSON),VMU(JSON)
       COMMON/ROTEN/DEROT(JSON)
 C G Somers END
-      DATA ICHECK/0/
 
 
 C JVS END
@@ -102,6 +101,8 @@ C REV.MOD.PHYS., P.895)
       DATA GASNUF/1.18D1,2.15D2,7.14D4,7.17D1,2.40D4,6.04D1,
      *            1.137D2,1.139D2/
       DATA CLSNUF/0.0D0,1.6D1,4.26D4,2.4D0,1.14D4,1.7D0,6.8D0,6.9D0/
+
+      DATA ICHECK/0/
       SAVE
 
       LTSCAL=.FALSE.

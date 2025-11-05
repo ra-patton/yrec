@@ -1,6 +1,6 @@
-      RECURSIVE SUBROUTINE STITCH(HCOMP,HR,HP,HD,HS,HT,HL,HS1,
+      SUBROUTINE STITCH(HCOMP,HR,HP,HD,HS,HT,HL,HS1,
      * OMEGA,ETA2,HI,R0,HJM,FP,FT,TEFFL,HSTOT,BL,M,LC,MODEL)
-     
+
       IMPLICIT REAL*8(A-H,O-Z)
       IMPLICIT LOGICAL*4(L)
       PARAMETER (JSON=5000)
@@ -9,7 +9,7 @@
       COMMON/CCOUT/LSTORE,LSTATM,LSTENV,LSTMOD,LSTPHYS,LSTROT,LSCRIB,LSTCH,LPHHD
       COMMON/LUOUT/ILAST,IDEBUG,ITRACK,ISHORT,IMILNE,IMODPT,ISTOR,IOWR
       COMMON/ENVGEN/ATMSTP,ENVSTP,LENVG
-      COMMON/INTATM/ATMERR,ATMD0,ATMBEG,ATMMIN,ATMMAX 
+      COMMON/INTATM/ATMERR,ATMD0,ATMBEG,ATMMIN,ATMMAX
       COMMON/INTENV/ENVERR,ENVBEG,ENVMIN,ENVMAX
       COMMON/CONST1/ CLN,CLNI,C4PI,C4PIL,C4PI3L,CC13,CC23,CPI
       COMMON/CONST/CLSUN,CLSUNL,CLNSUN,CMSUN,CMSUNL,CRSUN,CRSUNL,CMBOL
@@ -19,7 +19,7 @@
      *     ENVR(JSON),ENVX(JSON),ENVZ(JSON),LCENV(JSON),
      *     EDELS(3,JSON),EVELS(JSON),EBETAS(JSON),
      *     EGAM1(JSON),EQCP(JSON),EFXIONS(3,JSON),
-     *     ENVO(JSON), ENVL(JSON),EQDT(JSON),NUMENV     
+     *     ENVO(JSON), ENVL(JSON),EQDT(JSON),NUMENV
       COMMON/ATMSTRUCT/ATMOP(JSON),ATMOT(JSON),ATMOD(JSON),
      *     ATMOR(JSON),ADELS(3,JSON),ABETAS(JSON),
      *     AGAM1(JSON),AQDT(JSON),AFXIONS(3,JSON),
@@ -42,26 +42,26 @@ C G Somers 3/17, ADDING NEW TAUCZ COMMON BLOCK
       COMMON/ROTEN/DEROT(JSON)
       COMMON/SOUND/GAM1(JSON),LSOUND
       COMMON/TEMP2/VES(JSON),VES0(JSON),VSS(JSON),VSS0(JSON),
-     *     HLE(JSON),VGSF(JSON),VGSF0(JSON),VMU(JSON)      
+     *     HLE(JSON),VGSF(JSON),VGSF0(JSON),VMU(JSON)
       SAVE
 C
 C
-C STITCH: and alternate file format for .store that provides profiles for each 
-C desired model. Stitches the envelope and atmosphere solutions onto the interior 
-C when LSTENV and LSTATM are true. Will not provide atmosphere information when 
-C atmosphere tables are used. 
+C STITCH: and alternate file format for .store that provides profiles for each
+C desired model. Stitches the envelope and atmosphere solutions onto the interior
+C when LSTENV and LSTATM are true. Will not provide atmosphere information when
+C atmosphere tables are used.
 C
 C The output columns in the new .store format are:
 C 1 MODEL, 2 SHELL, 3 log(mass[g]), 4 log(r[cm]), 5 L/Lsun, 6 log(P[cgs]), 7 log(T[K])',
 C 8 log(DENSITY[cgs]),9 OMEGA(rad/s),10 CONVECTIVE?, 11 INTERIOR_POINT?, 12 ENVLELOPE_PT?
 C 13 ATMOSPHERE_POINT?, 14 H1(mass frac), 15 He4(mass frac),16 METALS(mass frac),
-C 17 He3(mass frac), 18 C12(mass frac), 19 C13(mass frac), 20 N14(mass frac), 
+C 17 He3(mass frac), 18 C12(mass frac), 19 C13(mass frac), 20 N14(mass frac),
 C 21 N15(mass frac), 22 O16(mass frac), 23 O17(mass frac), 24 O18(mass frac),
 C 25 H2(mass frac), 26 Li6(mass frac),27 Li7(mass frac),28 Be9(mass frac),29 OPACITY[cgs]
-C 30 GRAVITY(cgs), 31 DELR(Rad. temp. grad), 32 DEL(actual temp grad), 
+C 30 GRAVITY(cgs), 31 DELR(Rad. temp. grad), 32 DEL(actual temp grad),
 C 33 DELA(adiabatic temp grad), 34 CONVECTIVE _VELOCITY[cm/s],35 GAM1(adiabatic exponent),
-C 36 HII, 37 HEII, 38 HEIII, 39 BETA, 40 ETA, 41 PPI, 42 PPII, 43 PPIII, 44, CNO, 45 3HE    
-C 46 E_NUC,47 E_NEU,48 E_GRAV,49 Cp,50 dlnrho/dlnT,51 A, 52 RP/RE, 53 FP, 54 FT, 55 J/M, 
+C 36 HII, 37 HEII, 38 HEIII, 39 BETA, 40 ETA, 41 PPI, 42 PPII, 43 PPIII, 44, CNO, 45 3HE
+C 46 E_NUC,47 E_NEU,48 E_GRAV,49 Cp,50 dlnrho/dlnT,51 A, 52 RP/RE, 53 FP, 54 FT, 55 J/M,
 C 56 MOMENT, 57 DEL_KE, 58 V_ES, 59 V_GSF, 60 V_SS, 61 VTOT   '
 C
 C ****************************  WRITE OUT INTERIOR INFORMATION   **********************
@@ -69,7 +69,7 @@ C ****************************  WRITE OUT INTERIOR INFORMATION   ***************
       CG=DEXP(CLN*CGL)
       DO I = 1,M
             SG = DEXP(CLN*(CGL - 2.0D0*HR(I)))*HS1(I)
-C write out the basic info           
+C write out the basic info
             WRITE(ISTOR,62,ADVANCE='no') MODEL,I,HS(I),HR(I),HL(I),HP(I),
      *         HT(I),HD(I),OMEGA(I),LC(I),.TRUE.,.FALSE.,.FALSE.,(HCOMP(J,I),J=1,15)
 C write out additional physics if desired
@@ -90,10 +90,10 @@ C write out additional rotation info if rotation is on
                WRITE(ISTOR,64) 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
             ENDIF
          ENDDO
- 
+
 
 C **************************   WRITE OUT ENVELOPE INFORMATION   **********************
-      
+
       IF(LSTENV)THEN ! only provide an envelope if asked to do so
 C Begin by "dropping a sinkline" with the envelope integrator
       ABEG0 = ATMBEG
@@ -136,11 +136,11 @@ C PRESSURE AT THE AMBIENT TEMPERATURE ATEFFL
 
 C DEFINE SOME ARRAYS WE NEED
       DO I=1,NUMENV
-          ENVS1(I) = DEXP(CLN*(ENVS(I)+HSTOT))  
+          ENVS1(I) = DEXP(CLN*(ENVS(I)+HSTOT))
       ENDDO
-         DO I=M+1,M+NUMENV      
-            SG = DEXP(CLN*(CGL - 2.0D0*ENVR(I-M)))*ENVS1(I-M)          
-C write out the basic info. Omega and abundances take value of last interior point.           
+         DO I=M+1,M+NUMENV
+            SG = DEXP(CLN*(CGL - 2.0D0*ENVR(I-M)))*ENVS1(I-M)
+C write out the basic info. Omega and abundances take value of last interior point.
             WRITE(ISTOR,62,ADVANCE='no') MODEL,I,ENVS(I-M)+HSTOT,ENVR(I-M),ENVL(I-M),
      *      ENVP(I-M),ENVT(I-M),ENVD(I-M),OMEGA(M),LCENV(I-M),.FALSE.,.TRUE.,.FALSE.,
      *      (HCOMP(J,M),J=1,15)
@@ -152,15 +152,15 @@ C write out additional physics
 C             zero out rotation columns for envelope
                WRITE(ISTOR,64) 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
          ENDDO
-       ENDIF   
-       
-       
-            
-C *************************** WRITE OUT ATMOSPHERE INFORMATION  ************************       
+       ENDIF
+
+
+
+C *************************** WRITE OUT ATMOSPHERE INFORMATION  ************************
 C Finish with the atmosphere, if the atmosphere was computed
-       IF(LSTATM)THEN            
-            DO I=NUMATM,1,-1   
-C write out the basic info. Omega and abundances take value of last interior point. 
+       IF(LSTATM)THEN
+            DO I=NUMATM,1,-1
+C write out the basic info. Omega and abundances take value of last interior point.
             RAD = DLOG10(DEXP(CLN*ENVR(NUMENV)) + ATMOR(I))
             WRITE(ISTOR,62,ADVANCE='no') MODEL,NUMATM-I+M+NUMENV,HSTOT,RAD,B,
      *      ATMOP(I),ATMOT(I),ATMOD(I),OMEGA(M),
@@ -174,12 +174,12 @@ C write out additional physics
 C  zero placeholders for rotation output
             WRITE(ISTOR,64) 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
          ENDDO
-       ENDIF        
+       ENDIF
 
 
-         
-C **************************    Output format codes   ******************************         
-         
+
+C **************************    Output format codes   ******************************
+
  62   FORMAT(I6,1X,I6,0P2F18.14,1PE24.16,0P3F18.14,1PE24.16,1X,L1,1X,L1,1X,L1,1X,L1,
      &     3(0PF12.9),12(0PE16.8),2X)
 
@@ -189,9 +189,9 @@ C     &     F9.5,F9.5,E12.4,E12.4,E12.4,E12.4,E12.4,E13.5,E13.5,E13.5,E13.5)
      &  F9.5,F9.5,E12.4,E12.4,E12.4,E12.4,E12.4,E13.5,E13.5,E13.5,E13.5,E13.5,E13.5,E13.5,
      &  E13.5)
  64   FORMAT(E14.6,E14.6,E14.6,E14.6,E14.6,E14.6,E14.6,E11.3,E11.3,E11.3,E11.3)
-     
-          
- 
+
+
+
       RETURN
       END
 
