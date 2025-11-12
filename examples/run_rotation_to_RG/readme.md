@@ -1,0 +1,1 @@
+These namelists will model a rotating star out to the red giant branch and include differential rotation. Run \texttt{Test_3Msolar_GS_rot_gray_OPALSCV_SF2_GS98_OP_CF10_TAMS} first to evolve the star to TAMS.  \texttt{Test_3Msolar_GS_rot_gray_OPALSCV_SF2_GS98_OP_CF10_GFp2difffrotl2} starts at the ending point of \texttt{Test_3Msolar_GS_rot_gray_OPALSCV_SF2_GS98_OP_CF10_TAMS}.
