@@ -1,4 +1,4 @@
-# yrec_tools
+# modelgrid_tools
 Tools for creating a grid of models using YREC
 
 How to use YREC to compute the ages of a population of stars:
@@ -18,6 +18,7 @@ Run the solar model, as well as models with slightly different mixing length and
 
 Before creating and running the entire grid, create a sparse grid of models (often just the corner of the grid- maximum and minimum mass, maximum and minimum metallicity, as well as the base model) to check that the numerics will run for a range of cases (e.g. all models will make it up to the tip of the giant branch or whatever the metric of interest is).
 
+
 **File List**
 
 make_modelgrid.py allows you to create a grid of models that vary in mass and metallicity. It is the most up-to-date and well-documented way to create a file list. If you want to vary other quantities such as rotation or mixing length, feel free to modify it.
@@ -27,7 +28,9 @@ Once you have the base model decided, you come up with a list of things you want
 
 **Running the Models**
 
-Once all the inlists have been generated you actually have to run them. 
+Once all the inlists have been generated you have to run them. 
 
-batchrunner.py is a script to run a grid of namelists in python. It is intended to be used from the command line and has 2 versions within it: one for generating and running a mass-Fe/H grid, the other for running a pre-existing grid. 
+batchrunner.py is a script to run a grid of namelists in python. It is intended to be used from the command line and has 2 versions within it: one for generating and running a mass-Fe/H grid, the other for running a pre-existing grid.
+
+run_yrec_grid.slurm is a an example slurm script for running a grid of YREC models on a supercomputer.
 

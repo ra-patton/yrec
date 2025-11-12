@@ -22,7 +22,7 @@ import numpy as np
 from make_modelgrid import make_MFeHgrid
 from glob import glob
 
-yrecpath = '/home/sus/Masters/yrec/src/yrec'
+yrecpath = '/home/sus/Masters/yrec/src/yrec' # user TODO: change this to match the path to your yrec executable
 
 ''' Version 1: Make grid and run it '''
 
@@ -30,7 +30,7 @@ yrecpath = '/home/sus/Masters/yrec/src/yrec'
 masses = np.array([0.5,.6,1,2.5])
 FeHs = np.array([-.5,0,.5])
 
-base_fpath = '/home/sus/Masters/yrec_tools/test_mFeHgrid_sus'
+base_fpath = '/home/sus/Masters/yrec_tools/test_mFeHgrid_sus' # user TODO: change this to where your namelists are stored
 
 nml_names = make_MFeHgrid(masses,FeHs,base_fname='test_sus',
             base_fpath=base_fpath,

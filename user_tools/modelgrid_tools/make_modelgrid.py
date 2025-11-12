@@ -138,7 +138,7 @@ def FeH_to_XYZ(FeH,Z_solar,X_solar,Yp=0.2482):
 	Y_solar = 1 - X_solar - Z_solar
 	DelY_DelZ = (Y_solar - Yp) / Z_solar
 	ZoX_solar = Z_solar/X_solar
-	q = 10**FeH * ZoX_solar # to make things shorter
+	q = 10**FeH * ZoX_solar # define q to make the next line shorter
 
 	Z = (1-Yp)/(1/q + DelY_DelZ + 1)
 
@@ -219,6 +219,7 @@ def num_to_filestr(z:float,sig_figs=3,ignore_sign=False):
 	z = abs(z)
 	# convert to string (sorry this is complicated)
 	tmp = str(round(int(tol*z)))
+	
 	while len(tmp) < sig_figs:
 		tmp = '0' + tmp
 	if ignore_sign:
