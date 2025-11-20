@@ -304,6 +304,12 @@ C      *    HSTOT,HT,IKUT,ISTORE,JCORE,JENV,LARGE,LC,LNEW,M,MODEL,  ! KC 2025-05
      *    HSTOT,HT,IKUT,ISTORE,JENV,LARGE,LC,LNEW,M,MODEL,
      *    NK,OMEGA,PS,QDP,QDT,QIW,R0,RS,SJTOT,SKEROT,SMASS,TEFFL,
      *    TLUMX,TRIL,TRIT,TS,VEL,HG,V)
+      IF(OMEGA(1) .EQ. 0) THEN
+          LROT = .FALSE.
+          PRINT *,""
+          PRINT *,"(2) Setting LROT to FALSE b/c OMEGA(1) = 0"
+          PRINT *,""
+      ENDIF
 c     MHP 10/24 CHECK STOP CONDITIONS AND DISABLE THEM IF THE STARTING VALUES ARE BELOW THE TARGET THRESHOLD
          IF(LENDAG(NK))THEN
             IF(END_DCEN(NK).GT.0.0D0 .AND.
@@ -557,6 +563,12 @@ C      *          HSTOT,HT,IKUT,ISTORE,JCORE,JENV,LARGE,LC,LNEW,M,MODEL,  ! KC 2
      *          HSTOT,HT,IKUT,ISTORE,JENV,LARGE,LC,LNEW,M,MODEL,
      *          NK,OMEGA,PS,QDP,QDT,QIW,R0,RS,SJTOT,SKEROT,SMASS,TEFFL,
      *          TLUMX,TRIL,TRIT,TS,VEL,HG,V)
+             IF(OMEGA(1) .EQ. 0) THEN
+                 LROT = .FALSE.
+                 PRINT *,""
+                 PRINT *,"(1) Setting LROT to FALSE b/c OMEGA(1) = 0"
+                 PRINT *,""
+             ENDIF
           ENDIF
           LPUNCH = .TRUE.
 
