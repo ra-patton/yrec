@@ -227,3 +227,8 @@ run_from_dbl_to_zams Test_m10000_feh0_noGS_ZAMS
 # run_from_dbl_to_zams Test_m12000_feh0_noGS_ZAMS
 # run_from_dbl_to_zams Test_m14000_feh0_noGS_ZAMS
 run_from_dbl_to_zams Test_m16000_feh0_noGS_ZAMS
+
+# Core He-burning models
+run_from_zahb_to_tahb zahb_100
+run_from_zahb_to_tahb zahb_zp003_070
+run_from_zahb_to_tahb zahb_rsclm
