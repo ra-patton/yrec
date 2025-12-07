@@ -1,0 +1,7 @@
+# Core He-burning models
+
+| Model Name     | Description    |
+| ------------ | -------------- |
+| `zahb_100`      | A solar-mass core He-burning model evolved from a zero-age horizontal branch seed to central Y = 0.0004. No semiconvection. Diffusion, no rotation, and with a gray atmosphere. Note that abundances are GN93 not GS98 standard for other test cases, in order to be consistent with the seed model. The first run is a rescaling to the desired metallicity, and the second is the evolution run.|
+| `zahb_zp003_070`      | A 0.7Msun core He-burning model evolved from a zero-age horizontal branch seed to central Y = 0.0002. No semiconvection. Diffusion, no rotation, and with a gray atmosphere. Note that abundances are GN93 not GS98 standard for other test cases, in order to be consistent with the seed model. The first ten runs are rescaling runs to the desired metallicity, and the eleventh run is the evolution run.|
+| `zahb_rsclm`      | A rescaling of the envelope mass to achieve a total mass of 0.95 from a 0.9Msun zero-age horizontal branch seed, and evolved to central Y = 0.0004. No semiconvection. Diffusion, no rotation, and with a gray atmosphere. Note that abundances are GN93 not GS98 standard for other test cases, in order to be consistent with the seed model. The first run is a rescaling to the desired metallicity, the second run to the desired mass, and the third run is the evolution run.|

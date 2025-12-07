@@ -1,0 +1,1235 @@
+ .nml1 input file:zahb_zp003_070.nml1                                                                                                                                                                                                                                             
+ .nml2 input file:run_from_zahb_to_tahb.nml2                                                                                                                                                                                                                                      
+CNO MIXTURE CUS      C   0.1733E+00 N   0.5314E-01 O   0.4822E+00 APPLIED TO STARTING MODEL.
+
+ RUN #  1   RESCALE THE INPUT MODEL: "FIRST MODEL".
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.700000   Z 0.020000   CORE MASS 0.000000
+
+ RUN #  2   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.706000   Z 0.018000   CORE MASS 0.000000
+
+ RUN #  3   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.712000   Z 0.016000   CORE MASS 0.000000
+
+ RUN #  4   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.718000   Z 0.014000   CORE MASS 0.000000
+
+ RUN #  5   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.724000   Z 0.012000   CORE MASS 0.000000
+
+ RUN #  6   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.730000   Z 0.010000   CORE MASS 0.000000
+
+ RUN #  7   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.736000   Z 0.008000   CORE MASS 0.000000
+
+ RUN #  8   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.742000   Z 0.006000   CORE MASS 0.000000
+
+ RUN #  9   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.748000   Z 0.004000   CORE MASS 0.000000
+
+ RUN # 10   RESCALE THE PREVIOUS RUN'S LAST MODEL.
+ RELAX RESCALED MODEL  5 TIMES. RESCALE THE FOLLOWING(0=USE CURRENT VALUE):
+ MASS  0.000000   X 0.751000   Z 0.003000   CORE MASS 0.000000
+
+ RUN # 11   EVOLVE ***** MODELS, STARTING WITH THE PREVIOUS RUN'S LAST MODEL.
+ EVOLVE TO AGE T SET DELT F FINAL AGE  0.00E+00 FIXED TSTEP  0.00E+00 CENTRAL D 0.0000E+00 CENTRAL X   0.0000E+00 CENTRAL Y   0.2000E-03
+SPECIES   1 IN SHELL   943 DIFFERS FROM CENTER BY   0.6504E-02 MIX NOT MODIFIED IN EVOLVED MODEL
+ Entering HB scale    5.4877186429536096E-004
+ HI
+ F
+ HE
+ HE
+   2.0000000000000000E-002  0.96788099999999988        2.0663697293365611E-002
+   7.1577915000000004E-006
+ HE
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 1 RESCALE  X=0.700000 Z=0.020000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3203  LogTeff= 3.69248  Log(L/Lsun)= 1.54592  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3207  LogTeff= 3.69246  Log(L/Lsun)= 1.54593  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3201  LogTeff= 3.69246  Log(L/Lsun)= 1.54592  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3201  LogTeff= 3.69246  Log(L/Lsun)= 1.54592  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3201  LogTeff= 3.69246  Log(L/Lsun)= 1.54592  Age=     0.00000
+ Entering HB scale    5.4877186429536096E-004
+ Entering HB scale    5.4877186429536096E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 2 RESCALE  X=0.706000 Z=0.018000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3201  LogTeff= 3.69581  Log(L/Lsun)= 1.54653  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3199  LogTeff= 3.69581  Log(L/Lsun)= 1.54653  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3199  LogTeff= 3.69581  Log(L/Lsun)= 1.54653  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3199  LogTeff= 3.69581  Log(L/Lsun)= 1.54653  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3199  LogTeff= 3.69581  Log(L/Lsun)= 1.54653  Age=     0.00000
+ Entering HB scale    5.4877186430246638E-004
+ Entering HB scale    5.4877186430246638E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 3 RESCALE  X=0.712000 Z=0.016000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3199  LogTeff= 3.69960  Log(L/Lsun)= 1.54823  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3198  LogTeff= 3.69961  Log(L/Lsun)= 1.54824  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3198  LogTeff= 3.69961  Log(L/Lsun)= 1.54824  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3198  LogTeff= 3.69961  Log(L/Lsun)= 1.54824  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3198  LogTeff= 3.69961  Log(L/Lsun)= 1.54824  Age=     0.00000
+ Entering HB scale    5.4877186430246638E-004
+ Entering HB scale    5.4877186430246638E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 4 RESCALE  X=0.718000 Z=0.014000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3198  LogTeff= 3.70393  Log(L/Lsun)= 1.55128  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3197  LogTeff= 3.70393  Log(L/Lsun)= 1.55128  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3197  LogTeff= 3.70393  Log(L/Lsun)= 1.55128  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3197  LogTeff= 3.70393  Log(L/Lsun)= 1.55128  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3197  LogTeff= 3.70393  Log(L/Lsun)= 1.55128  Age=     0.00000
+ Entering HB scale    5.4877186430246638E-004
+ Entering HB scale    5.4877186430246638E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 5 RESCALE  X=0.724000 Z=0.012000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3197  LogTeff= 3.70888  Log(L/Lsun)= 1.55589  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3195  LogTeff= 3.70888  Log(L/Lsun)= 1.55589  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3195  LogTeff= 3.70888  Log(L/Lsun)= 1.55589  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3195  LogTeff= 3.70888  Log(L/Lsun)= 1.55589  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3195  LogTeff= 3.70888  Log(L/Lsun)= 1.55589  Age=     0.00000
+ Entering HB scale    5.4877186429536096E-004
+ Entering HB scale    5.4877186429536096E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 6 RESCALE  X=0.730000 Z=0.010000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3195  LogTeff= 3.71456  Log(L/Lsun)= 1.56225  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3193  LogTeff= 3.71455  Log(L/Lsun)= 1.56225  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3193  LogTeff= 3.71455  Log(L/Lsun)= 1.56225  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3193  LogTeff= 3.71455  Log(L/Lsun)= 1.56225  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3193  LogTeff= 3.71455  Log(L/Lsun)= 1.56225  Age=     0.00000
+ Entering HB scale    5.4877186430246638E-004
+ Entering HB scale    5.4877186430246638E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 7 RESCALE  X=0.736000 Z=0.008000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3192  LogTeff= 3.72053  Log(L/Lsun)= 1.56820  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3192  LogTeff= 3.72050  Log(L/Lsun)= 1.56820  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3192  LogTeff= 3.72050  Log(L/Lsun)= 1.56820  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3192  LogTeff= 3.72050  Log(L/Lsun)= 1.56820  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3192  LogTeff= 3.72050  Log(L/Lsun)= 1.56820  Age=     0.00000
+ Entering HB scale    5.4877186429536096E-004
+ Entering HB scale    5.4877186429536096E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 8 RESCALE  X=0.742000 Z=0.006000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3192  LogTeff= 3.72791  Log(L/Lsun)= 1.57749  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3189  LogTeff= 3.72794  Log(L/Lsun)= 1.57749  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3189  LogTeff= 3.72794  Log(L/Lsun)= 1.57749  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3189  LogTeff= 3.72794  Log(L/Lsun)= 1.57749  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3189  LogTeff= 3.72794  Log(L/Lsun)= 1.57749  Age=     0.00000
+ Entering HB scale    5.4877186429536096E-004
+ Entering HB scale    5.4877186429536096E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN= 9 RESCALE  X=0.748000 Z=0.004000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3189  LogTeff= 3.73728  Log(L/Lsun)= 1.59056  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3185  LogTeff= 3.73725  Log(L/Lsun)= 1.59056  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3185  LogTeff= 3.73725  Log(L/Lsun)= 1.59056  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3185  LogTeff= 3.73725  Log(L/Lsun)= 1.59056  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3185  LogTeff= 3.73725  Log(L/Lsun)= 1.59056  Age=     0.00000
+ Entering HB scale    5.4877186428115010E-004
+ Entering HB scale    5.4877186428115010E-004
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN=10 RESCALE  X=0.751000 Z=0.003000 CMIXL=2.130031 NO.MODS=    5
+ in gettau
+    -3  #SHELLS=3185  LogTeff= 3.74287  Log(L/Lsun)= 1.59701  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3184  LogTeff= 3.74275  Log(L/Lsun)= 1.59700  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3184  LogTeff= 3.74275  Log(L/Lsun)= 1.59700  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3184  LogTeff= 3.74275  Log(L/Lsun)= 1.59701  Age=     0.00000
+ in gettau
+    -3  #SHELLS=3184  LogTeff= 3.74275  Log(L/Lsun)= 1.59701  Age=     0.00000
+ HI
+ F
+ HE
+ HE
+ HE
+ in gettau
+
+ RUN=11 EVOLVE   X=0.751000 Z=0.003000 CMIXL=2.130031 NO.MODS=*****
+ in gettau
+    -2  #SHELLS=3184  LogTeff= 3.74275  Log(L/Lsun)= 1.59701  Age=     0.00000
+ in gettau
+    -1  #SHELLS=3184  LogTeff= 3.74275  Log(L/Lsun)= 1.59701  Age=     0.00000
+ in gettau
+     0  #SHELLS=3184  LogTeff= 3.74275  Log(L/Lsun)= 1.59701  Age=     0.00000
+LPTIME SET FALSE - TC  8.0673 EGRAV  -0.14E+01
+ in gettau
+     1  #SHELLS=3184  LogTeff= 3.74106  Log(L/Lsun)= 1.60115  Age=     0.00024
+ in gettau
+     2  #SHELLS=3187  LogTeff= 3.73931  Log(L/Lsun)= 1.61228  Age=     0.00047
+ in gettau
+     3  #SHELLS=3187  LogTeff= 3.73832  Log(L/Lsun)= 1.62019  Age=     0.00072
+ in gettau
+     4  #SHELLS=3189  LogTeff= 3.73779  Log(L/Lsun)= 1.62456  Age=     0.00096
+ in gettau
+     5  #SHELLS=3190  LogTeff= 3.73746  Log(L/Lsun)= 1.62726  Age=     0.00120
+ in gettau
+     6  #SHELLS=3190  LogTeff= 3.73723  Log(L/Lsun)= 1.62922  Age=     0.00144
+ in gettau
+     7  #SHELLS=3191  LogTeff= 3.73704  Log(L/Lsun)= 1.63080  Age=     0.00168
+ in gettau
+     8  #SHELLS=3192  LogTeff= 3.73689  Log(L/Lsun)= 1.63219  Age=     0.00192
+ in gettau
+     9  #SHELLS=3191  LogTeff= 3.73674  Log(L/Lsun)= 1.63345  Age=     0.00216
+ in gettau
+    10  #SHELLS=3192  LogTeff= 3.73661  Log(L/Lsun)= 1.63463  Age=     0.00240
+ in gettau
+    11  #SHELLS=3193  LogTeff= 3.73649  Log(L/Lsun)= 1.63576  Age=     0.00264
+ in gettau
+    12  #SHELLS=3192  LogTeff= 3.73637  Log(L/Lsun)= 1.63685  Age=     0.00288
+ in gettau
+    13  #SHELLS=3193  LogTeff= 3.73626  Log(L/Lsun)= 1.63792  Age=     0.00312
+ in gettau
+    14  #SHELLS=3192  LogTeff= 3.73615  Log(L/Lsun)= 1.63896  Age=     0.00336
+ in gettau
+    15  #SHELLS=3192  LogTeff= 3.73604  Log(L/Lsun)= 1.64000  Age=     0.00360
+ in gettau
+    16  #SHELLS=3192  LogTeff= 3.73593  Log(L/Lsun)= 1.64103  Age=     0.00384
+ in gettau
+    17  #SHELLS=3192  LogTeff= 3.73582  Log(L/Lsun)= 1.64205  Age=     0.00408
+ in gettau
+    18  #SHELLS=3192  LogTeff= 3.73572  Log(L/Lsun)= 1.64306  Age=     0.00432
+ in gettau
+    19  #SHELLS=3193  LogTeff= 3.73561  Log(L/Lsun)= 1.64407  Age=     0.00456
+ in gettau
+    20  #SHELLS=3192  LogTeff= 3.73551  Log(L/Lsun)= 1.64508  Age=     0.00480
+ in gettau
+    21  #SHELLS=3193  LogTeff= 3.73541  Log(L/Lsun)= 1.64608  Age=     0.00503
+ in gettau
+    22  #SHELLS=3193  LogTeff= 3.73531  Log(L/Lsun)= 1.64708  Age=     0.00527
+ in gettau
+    23  #SHELLS=3193  LogTeff= 3.73521  Log(L/Lsun)= 1.64808  Age=     0.00551
+ in gettau
+    24  #SHELLS=3193  LogTeff= 3.73511  Log(L/Lsun)= 1.64908  Age=     0.00575
+ in gettau
+    25  #SHELLS=3194  LogTeff= 3.73501  Log(L/Lsun)= 1.65008  Age=     0.00599
+ in gettau
+    26  #SHELLS=3193  LogTeff= 3.73491  Log(L/Lsun)= 1.65108  Age=     0.00623
+ in gettau
+    27  #SHELLS=3194  LogTeff= 3.73481  Log(L/Lsun)= 1.65208  Age=     0.00647
+ in gettau
+    28  #SHELLS=3194  LogTeff= 3.73471  Log(L/Lsun)= 1.65308  Age=     0.00671
+ in gettau
+    29  #SHELLS=3195  LogTeff= 3.73461  Log(L/Lsun)= 1.65407  Age=     0.00695
+ in gettau
+    30  #SHELLS=3195  LogTeff= 3.73451  Log(L/Lsun)= 1.65507  Age=     0.00719
+ in gettau
+    31  #SHELLS=3195  LogTeff= 3.73441  Log(L/Lsun)= 1.65606  Age=     0.00743
+ in gettau
+    32  #SHELLS=3195  LogTeff= 3.73432  Log(L/Lsun)= 1.65706  Age=     0.00767
+ in gettau
+    33  #SHELLS=3194  LogTeff= 3.73422  Log(L/Lsun)= 1.65805  Age=     0.00791
+ in gettau
+    34  #SHELLS=3195  LogTeff= 3.73413  Log(L/Lsun)= 1.65904  Age=     0.00815
+ in gettau
+    35  #SHELLS=3195  LogTeff= 3.73403  Log(L/Lsun)= 1.66002  Age=     0.00839
+ in gettau
+    36  #SHELLS=3196  LogTeff= 3.73394  Log(L/Lsun)= 1.66101  Age=     0.00862
+ in gettau
+    37  #SHELLS=3196  LogTeff= 3.73384  Log(L/Lsun)= 1.66199  Age=     0.00886
+ in gettau
+    38  #SHELLS=3197  LogTeff= 3.73375  Log(L/Lsun)= 1.66297  Age=     0.00910
+ in gettau
+    39  #SHELLS=3197  LogTeff= 3.73366  Log(L/Lsun)= 1.66394  Age=     0.00934
+ in gettau
+    40  #SHELLS=3198  LogTeff= 3.73357  Log(L/Lsun)= 1.66492  Age=     0.00958
+ in gettau
+    41  #SHELLS=3195  LogTeff= 3.73348  Log(L/Lsun)= 1.66589  Age=     0.00982
+ in gettau
+    42  #SHELLS=3194  LogTeff= 3.73339  Log(L/Lsun)= 1.66685  Age=     0.01006
+ in gettau
+    43  #SHELLS=3195  LogTeff= 3.73330  Log(L/Lsun)= 1.66781  Age=     0.01030
+ in gettau
+    44  #SHELLS=3195  LogTeff= 3.73321  Log(L/Lsun)= 1.66877  Age=     0.01053
+ in gettau
+    45  #SHELLS=3196  LogTeff= 3.73313  Log(L/Lsun)= 1.66972  Age=     0.01077
+ in gettau
+    46  #SHELLS=3196  LogTeff= 3.73304  Log(L/Lsun)= 1.67066  Age=     0.01101
+ in gettau
+    47  #SHELLS=3196  LogTeff= 3.73296  Log(L/Lsun)= 1.67159  Age=     0.01125
+ in gettau
+    48  #SHELLS=3197  LogTeff= 3.73288  Log(L/Lsun)= 1.67252  Age=     0.01149
+ in gettau
+    49  #SHELLS=3197  LogTeff= 3.73280  Log(L/Lsun)= 1.67344  Age=     0.01172
+ in gettau
+    50  #SHELLS=3196  LogTeff= 3.73272  Log(L/Lsun)= 1.67435  Age=     0.01196
+ in gettau
+    51  #SHELLS=3197  LogTeff= 3.73264  Log(L/Lsun)= 1.67525  Age=     0.01220
+ in gettau
+    52  #SHELLS=3197  LogTeff= 3.73257  Log(L/Lsun)= 1.67614  Age=     0.01244
+ in gettau
+    53  #SHELLS=3197  LogTeff= 3.73249  Log(L/Lsun)= 1.67703  Age=     0.01268
+ in gettau
+    54  #SHELLS=3198  LogTeff= 3.73242  Log(L/Lsun)= 1.67790  Age=     0.01291
+ in gettau
+    55  #SHELLS=3198  LogTeff= 3.73235  Log(L/Lsun)= 1.67877  Age=     0.01315
+ in gettau
+    56  #SHELLS=3198  LogTeff= 3.73228  Log(L/Lsun)= 1.67963  Age=     0.01339
+ in gettau
+    57  #SHELLS=3197  LogTeff= 3.73221  Log(L/Lsun)= 1.68048  Age=     0.01363
+ in gettau
+    58  #SHELLS=3198  LogTeff= 3.73214  Log(L/Lsun)= 1.68131  Age=     0.01386
+ in gettau
+    59  #SHELLS=3198  LogTeff= 3.73208  Log(L/Lsun)= 1.68214  Age=     0.01410
+ in gettau
+    60  #SHELLS=3198  LogTeff= 3.73201  Log(L/Lsun)= 1.68296  Age=     0.01434
+ in gettau
+    61  #SHELLS=3199  LogTeff= 3.73195  Log(L/Lsun)= 1.68377  Age=     0.01457
+ in gettau
+    62  #SHELLS=3199  LogTeff= 3.73189  Log(L/Lsun)= 1.68457  Age=     0.01481
+ in gettau
+    63  #SHELLS=3199  LogTeff= 3.73183  Log(L/Lsun)= 1.68536  Age=     0.01505
+ in gettau
+    64  #SHELLS=3199  LogTeff= 3.73178  Log(L/Lsun)= 1.68614  Age=     0.01528
+ in gettau
+    65  #SHELLS=3199  LogTeff= 3.73172  Log(L/Lsun)= 1.68691  Age=     0.01552
+ in gettau
+    66  #SHELLS=3199  LogTeff= 3.73167  Log(L/Lsun)= 1.68767  Age=     0.01576
+ in gettau
+    67  #SHELLS=3199  LogTeff= 3.73162  Log(L/Lsun)= 1.68842  Age=     0.01599
+ in gettau
+    68  #SHELLS=3200  LogTeff= 3.73157  Log(L/Lsun)= 1.68916  Age=     0.01623
+ in gettau
+    69  #SHELLS=3199  LogTeff= 3.73152  Log(L/Lsun)= 1.68989  Age=     0.01647
+ in gettau
+    70  #SHELLS=3199  LogTeff= 3.73147  Log(L/Lsun)= 1.69061  Age=     0.01670
+ in gettau
+    71  #SHELLS=3199  LogTeff= 3.73142  Log(L/Lsun)= 1.69132  Age=     0.01694
+ in gettau
+    72  #SHELLS=3200  LogTeff= 3.73138  Log(L/Lsun)= 1.69203  Age=     0.01717
+ in gettau
+    73  #SHELLS=3200  LogTeff= 3.73133  Log(L/Lsun)= 1.69272  Age=     0.01741
+ in gettau
+    74  #SHELLS=3200  LogTeff= 3.73129  Log(L/Lsun)= 1.69341  Age=     0.01764
+ in gettau
+    75  #SHELLS=3200  LogTeff= 3.73125  Log(L/Lsun)= 1.69409  Age=     0.01788
+ in gettau
+    76  #SHELLS=3201  LogTeff= 3.73121  Log(L/Lsun)= 1.69477  Age=     0.01811
+ in gettau
+    77  #SHELLS=3201  LogTeff= 3.73117  Log(L/Lsun)= 1.69544  Age=     0.01835
+ in gettau
+    78  #SHELLS=3201  LogTeff= 3.73113  Log(L/Lsun)= 1.69610  Age=     0.01858
+ in gettau
+    79  #SHELLS=3201  LogTeff= 3.73109  Log(L/Lsun)= 1.69676  Age=     0.01882
+ in gettau
+    80  #SHELLS=3200  LogTeff= 3.73106  Log(L/Lsun)= 1.69742  Age=     0.01905
+ in gettau
+    81  #SHELLS=3201  LogTeff= 3.73103  Log(L/Lsun)= 1.69799  Age=     0.01929
+ in gettau
+    82  #SHELLS=3201  LogTeff= 3.73100  Log(L/Lsun)= 1.69858  Age=     0.01952
+ in gettau
+    83  #SHELLS=3201  LogTeff= 3.73097  Log(L/Lsun)= 1.69920  Age=     0.01976
+ in gettau
+    84  #SHELLS=3201  LogTeff= 3.73093  Log(L/Lsun)= 1.69984  Age=     0.01999
+ in gettau
+    85  #SHELLS=3201  LogTeff= 3.73090  Log(L/Lsun)= 1.70048  Age=     0.02023
+ in gettau
+    86  #SHELLS=3202  LogTeff= 3.73087  Log(L/Lsun)= 1.70112  Age=     0.02046
+ in gettau
+    87  #SHELLS=3201  LogTeff= 3.73083  Log(L/Lsun)= 1.70176  Age=     0.02070
+ in gettau
+    88  #SHELLS=3201  LogTeff= 3.73080  Log(L/Lsun)= 1.70240  Age=     0.02093
+ in gettau
+    89  #SHELLS=3201  LogTeff= 3.73076  Log(L/Lsun)= 1.70304  Age=     0.02116
+ in gettau
+    90  #SHELLS=3200  LogTeff= 3.73073  Log(L/Lsun)= 1.70368  Age=     0.02140
+ in gettau
+    91  #SHELLS=3201  LogTeff= 3.73070  Log(L/Lsun)= 1.70432  Age=     0.02163
+ in gettau
+    92  #SHELLS=3201  LogTeff= 3.73066  Log(L/Lsun)= 1.70496  Age=     0.02186
+ in gettau
+    93  #SHELLS=3201  LogTeff= 3.73063  Log(L/Lsun)= 1.70560  Age=     0.02210
+ in gettau
+    94  #SHELLS=3201  LogTeff= 3.73060  Log(L/Lsun)= 1.70625  Age=     0.02233
+ in gettau
+    95  #SHELLS=3201  LogTeff= 3.73056  Log(L/Lsun)= 1.70690  Age=     0.02256
+ in gettau
+    96  #SHELLS=3202  LogTeff= 3.73053  Log(L/Lsun)= 1.70754  Age=     0.02280
+ in gettau
+    97  #SHELLS=3202  LogTeff= 3.73049  Log(L/Lsun)= 1.70820  Age=     0.02303
+ in gettau
+    98  #SHELLS=3202  LogTeff= 3.73046  Log(L/Lsun)= 1.70885  Age=     0.02326
+ in gettau
+    99  #SHELLS=3201  LogTeff= 3.73042  Log(L/Lsun)= 1.70951  Age=     0.02350
+ in gettau
+   100  #SHELLS=3202  LogTeff= 3.73040  Log(L/Lsun)= 1.71007  Age=     0.02373
+ in gettau
+   101  #SHELLS=3202  LogTeff= 3.73038  Log(L/Lsun)= 1.71065  Age=     0.02396
+ in gettau
+   102  #SHELLS=3202  LogTeff= 3.73034  Log(L/Lsun)= 1.71129  Age=     0.02419
+ in gettau
+   103  #SHELLS=3202  LogTeff= 3.73031  Log(L/Lsun)= 1.71196  Age=     0.02443
+ in gettau
+   104  #SHELLS=3202  LogTeff= 3.73027  Log(L/Lsun)= 1.71263  Age=     0.02466
+ in gettau
+   105  #SHELLS=3203  LogTeff= 3.73023  Log(L/Lsun)= 1.71331  Age=     0.02489
+ in gettau
+   106  #SHELLS=3203  LogTeff= 3.73019  Log(L/Lsun)= 1.71400  Age=     0.02512
+ in gettau
+   107  #SHELLS=3203  LogTeff= 3.73016  Log(L/Lsun)= 1.71469  Age=     0.02536
+ in gettau
+   108  #SHELLS=3203  LogTeff= 3.73012  Log(L/Lsun)= 1.71538  Age=     0.02559
+ in gettau
+   109  #SHELLS=3202  LogTeff= 3.73008  Log(L/Lsun)= 1.71607  Age=     0.02582
+ in gettau
+   110  #SHELLS=3203  LogTeff= 3.73004  Log(L/Lsun)= 1.71677  Age=     0.02605
+ in gettau
+   111  #SHELLS=3203  LogTeff= 3.73000  Log(L/Lsun)= 1.71748  Age=     0.02628
+ in gettau
+   112  #SHELLS=3203  LogTeff= 3.72996  Log(L/Lsun)= 1.71819  Age=     0.02652
+ in gettau
+   113  #SHELLS=3204  LogTeff= 3.72992  Log(L/Lsun)= 1.71890  Age=     0.02675
+ in gettau
+   114  #SHELLS=3205  LogTeff= 3.72988  Log(L/Lsun)= 1.71961  Age=     0.02698
+ in gettau
+   115  #SHELLS=3205  LogTeff= 3.72984  Log(L/Lsun)= 1.72033  Age=     0.02721
+ in gettau
+   116  #SHELLS=3205  LogTeff= 3.72980  Log(L/Lsun)= 1.72106  Age=     0.02744
+ in gettau
+   117  #SHELLS=3204  LogTeff= 3.72975  Log(L/Lsun)= 1.72179  Age=     0.02767
+ in gettau
+   118  #SHELLS=3204  LogTeff= 3.72973  Log(L/Lsun)= 1.72238  Age=     0.02790
+ in gettau
+   119  #SHELLS=3205  LogTeff= 3.72970  Log(L/Lsun)= 1.72301  Age=     0.02813
+ in gettau
+   120  #SHELLS=3205  LogTeff= 3.72966  Log(L/Lsun)= 1.72372  Age=     0.02836
+ in gettau
+   121  #SHELLS=3205  LogTeff= 3.72962  Log(L/Lsun)= 1.72446  Age=     0.02860
+ in gettau
+   122  #SHELLS=3205  LogTeff= 3.72957  Log(L/Lsun)= 1.72521  Age=     0.02883
+ in gettau
+   123  #SHELLS=3206  LogTeff= 3.72953  Log(L/Lsun)= 1.72596  Age=     0.02906
+ in gettau
+   124  #SHELLS=3206  LogTeff= 3.72948  Log(L/Lsun)= 1.72672  Age=     0.02929
+ in gettau
+   125  #SHELLS=3206  LogTeff= 3.72944  Log(L/Lsun)= 1.72748  Age=     0.02952
+ in gettau
+   126  #SHELLS=3207  LogTeff= 3.72939  Log(L/Lsun)= 1.72825  Age=     0.02975
+ in gettau
+   127  #SHELLS=3206  LogTeff= 3.72934  Log(L/Lsun)= 1.72902  Age=     0.02998
+ in gettau
+   128  #SHELLS=3206  LogTeff= 3.72930  Log(L/Lsun)= 1.72980  Age=     0.03021
+ in gettau
+   129  #SHELLS=3206  LogTeff= 3.72925  Log(L/Lsun)= 1.73058  Age=     0.03044
+ in gettau
+   130  #SHELLS=3207  LogTeff= 3.72920  Log(L/Lsun)= 1.73136  Age=     0.03067
+ in gettau
+   131  #SHELLS=3207  LogTeff= 3.72915  Log(L/Lsun)= 1.73215  Age=     0.03090
+ in gettau
+   132  #SHELLS=3207  LogTeff= 3.72911  Log(L/Lsun)= 1.73294  Age=     0.03113
+ in gettau
+   133  #SHELLS=3207  LogTeff= 3.72906  Log(L/Lsun)= 1.73374  Age=     0.03136
+ in gettau
+   134  #SHELLS=3208  LogTeff= 3.72901  Log(L/Lsun)= 1.73454  Age=     0.03158
+ in gettau
+   135  #SHELLS=3206  LogTeff= 3.72896  Log(L/Lsun)= 1.73535  Age=     0.03181
+ in gettau
+   136  #SHELLS=3206  LogTeff= 3.72891  Log(L/Lsun)= 1.73616  Age=     0.03204
+ in gettau
+   137  #SHELLS=3207  LogTeff= 3.72888  Log(L/Lsun)= 1.73679  Age=     0.03227
+ in gettau
+   138  #SHELLS=3207  LogTeff= 3.72885  Log(L/Lsun)= 1.73746  Age=     0.03250
+ in gettau
+   139  #SHELLS=3207  LogTeff= 3.72880  Log(L/Lsun)= 1.73824  Age=     0.03273
+ in gettau
+   140  #SHELLS=3207  LogTeff= 3.72875  Log(L/Lsun)= 1.73906  Age=     0.03296
+ in gettau
+   141  #SHELLS=3207  LogTeff= 3.72870  Log(L/Lsun)= 1.73989  Age=     0.03319
+ in gettau
+   142  #SHELLS=3208  LogTeff= 3.72864  Log(L/Lsun)= 1.74073  Age=     0.03342
+ in gettau
+   143  #SHELLS=3208  LogTeff= 3.72859  Log(L/Lsun)= 1.74157  Age=     0.03365
+ in gettau
+   144  #SHELLS=3207  LogTeff= 3.72854  Log(L/Lsun)= 1.74241  Age=     0.03387
+ in gettau
+   145  #SHELLS=3208  LogTeff= 3.72848  Log(L/Lsun)= 1.74327  Age=     0.03410
+ in gettau
+   146  #SHELLS=3208  LogTeff= 3.72843  Log(L/Lsun)= 1.74412  Age=     0.03433
+ in gettau
+   147  #SHELLS=3207  LogTeff= 3.72838  Log(L/Lsun)= 1.74498  Age=     0.03456
+ in gettau
+   148  #SHELLS=3208  LogTeff= 3.72832  Log(L/Lsun)= 1.74585  Age=     0.03479
+ in gettau
+   149  #SHELLS=3208  LogTeff= 3.72826  Log(L/Lsun)= 1.74672  Age=     0.03502
+ in gettau
+   150  #SHELLS=3208  LogTeff= 3.72821  Log(L/Lsun)= 1.74760  Age=     0.03524
+ in gettau
+   151  #SHELLS=3208  LogTeff= 3.72815  Log(L/Lsun)= 1.74848  Age=     0.03547
+ in gettau
+   152  #SHELLS=3209  LogTeff= 3.72810  Log(L/Lsun)= 1.74936  Age=     0.03570
+ in gettau
+   153  #SHELLS=3208  LogTeff= 3.72804  Log(L/Lsun)= 1.75025  Age=     0.03593
+ in gettau
+   154  #SHELLS=3208  LogTeff= 3.72798  Log(L/Lsun)= 1.75115  Age=     0.03615
+ in gettau
+   155  #SHELLS=3209  LogTeff= 3.72792  Log(L/Lsun)= 1.75205  Age=     0.03638
+ in gettau
+   156  #SHELLS=3209  LogTeff= 3.72789  Log(L/Lsun)= 1.75271  Age=     0.03661
+ in gettau
+   157  #SHELLS=3209  LogTeff= 3.72785  Log(L/Lsun)= 1.75344  Age=     0.03683
+ in gettau
+   158  #SHELLS=3209  LogTeff= 3.72780  Log(L/Lsun)= 1.75429  Age=     0.03706
+ in gettau
+   159  #SHELLS=3210  LogTeff= 3.72774  Log(L/Lsun)= 1.75520  Age=     0.03729
+ in gettau
+   160  #SHELLS=3210  LogTeff= 3.72768  Log(L/Lsun)= 1.75613  Age=     0.03752
+ in gettau
+   161  #SHELLS=3209  LogTeff= 3.72762  Log(L/Lsun)= 1.75706  Age=     0.03774
+ in gettau
+   162  #SHELLS=3210  LogTeff= 3.72756  Log(L/Lsun)= 1.75800  Age=     0.03797
+ in gettau
+   163  #SHELLS=3210  LogTeff= 3.72750  Log(L/Lsun)= 1.75895  Age=     0.03820
+ in gettau
+   164  #SHELLS=3210  LogTeff= 3.72743  Log(L/Lsun)= 1.75990  Age=     0.03842
+ in gettau
+   165  #SHELLS=3211  LogTeff= 3.72737  Log(L/Lsun)= 1.76085  Age=     0.03865
+ in gettau
+   166  #SHELLS=3211  LogTeff= 3.72731  Log(L/Lsun)= 1.76182  Age=     0.03888
+ in gettau
+   167  #SHELLS=3211  LogTeff= 3.72724  Log(L/Lsun)= 1.76279  Age=     0.03910
+ in gettau
+   168  #SHELLS=3212  LogTeff= 3.72718  Log(L/Lsun)= 1.76376  Age=     0.03933
+ in gettau
+   169  #SHELLS=3211  LogTeff= 3.72711  Log(L/Lsun)= 1.76474  Age=     0.03955
+ in gettau
+   170  #SHELLS=3211  LogTeff= 3.72704  Log(L/Lsun)= 1.76573  Age=     0.03978
+ in gettau
+   171  #SHELLS=3212  LogTeff= 3.72698  Log(L/Lsun)= 1.76672  Age=     0.04001
+ in gettau
+   172  #SHELLS=3212  LogTeff= 3.72691  Log(L/Lsun)= 1.76772  Age=     0.04023
+ in gettau
+   173  #SHELLS=3213  LogTeff= 3.72684  Log(L/Lsun)= 1.76873  Age=     0.04046
+ in gettau
+   174  #SHELLS=3213  LogTeff= 3.72681  Log(L/Lsun)= 1.76942  Age=     0.04068
+ in gettau
+   175  #SHELLS=3213  LogTeff= 3.72677  Log(L/Lsun)= 1.77021  Age=     0.04091
+ in gettau
+   176  #SHELLS=3212  LogTeff= 3.72671  Log(L/Lsun)= 1.77115  Age=     0.04113
+ in gettau
+   177  #SHELLS=3213  LogTeff= 3.72664  Log(L/Lsun)= 1.77216  Age=     0.04136
+ in gettau
+   178  #SHELLS=3213  LogTeff= 3.72657  Log(L/Lsun)= 1.77320  Age=     0.04158
+ in gettau
+   179  #SHELLS=3213  LogTeff= 3.72650  Log(L/Lsun)= 1.77425  Age=     0.04181
+ in gettau
+   180  #SHELLS=3214  LogTeff= 3.72642  Log(L/Lsun)= 1.77530  Age=     0.04203
+ in gettau
+   181  #SHELLS=3214  LogTeff= 3.72635  Log(L/Lsun)= 1.77636  Age=     0.04226
+ in gettau
+   182  #SHELLS=3215  LogTeff= 3.72628  Log(L/Lsun)= 1.77743  Age=     0.04248
+ in gettau
+   183  #SHELLS=3215  LogTeff= 3.72620  Log(L/Lsun)= 1.77851  Age=     0.04271
+ in gettau
+   184  #SHELLS=3215  LogTeff= 3.72613  Log(L/Lsun)= 1.77959  Age=     0.04293
+ in gettau
+   185  #SHELLS=3215  LogTeff= 3.72605  Log(L/Lsun)= 1.78068  Age=     0.04316
+ in gettau
+   186  #SHELLS=3215  LogTeff= 3.72598  Log(L/Lsun)= 1.78178  Age=     0.04338
+ in gettau
+   187  #SHELLS=3215  LogTeff= 3.72590  Log(L/Lsun)= 1.78289  Age=     0.04361
+ in gettau
+   188  #SHELLS=3216  LogTeff= 3.72582  Log(L/Lsun)= 1.78400  Age=     0.04383
+ in gettau
+   189  #SHELLS=3216  LogTeff= 3.72574  Log(L/Lsun)= 1.78512  Age=     0.04406
+ in gettau
+   190  #SHELLS=3215  LogTeff= 3.72566  Log(L/Lsun)= 1.78626  Age=     0.04428
+ in gettau
+   191  #SHELLS=3215  LogTeff= 3.72564  Log(L/Lsun)= 1.78698  Age=     0.04450
+ in gettau
+   192  #SHELLS=3215  LogTeff= 3.72559  Log(L/Lsun)= 1.78783  Age=     0.04473
+ in gettau
+   193  #SHELLS=3216  LogTeff= 3.72552  Log(L/Lsun)= 1.78888  Age=     0.04495
+ in gettau
+   194  #SHELLS=3215  LogTeff= 3.72544  Log(L/Lsun)= 1.79001  Age=     0.04518
+ in gettau
+   195  #SHELLS=3215  LogTeff= 3.72535  Log(L/Lsun)= 1.79118  Age=     0.04540
+ in gettau
+   196  #SHELLS=3216  LogTeff= 3.72527  Log(L/Lsun)= 1.79236  Age=     0.04562
+ in gettau
+   197  #SHELLS=3216  LogTeff= 3.72518  Log(L/Lsun)= 1.79356  Age=     0.04585
+ in gettau
+   198  #SHELLS=3217  LogTeff= 3.72510  Log(L/Lsun)= 1.79476  Age=     0.04607
+ in gettau
+   199  #SHELLS=3216  LogTeff= 3.72501  Log(L/Lsun)= 1.79596  Age=     0.04629
+ in gettau
+   200  #SHELLS=3217  LogTeff= 3.72493  Log(L/Lsun)= 1.79718  Age=     0.04652
+ in gettau
+   201  #SHELLS=3217  LogTeff= 3.72484  Log(L/Lsun)= 1.79841  Age=     0.04674
+ in gettau
+   202  #SHELLS=3217  LogTeff= 3.72475  Log(L/Lsun)= 1.79965  Age=     0.04696
+ in gettau
+   203  #SHELLS=3218  LogTeff= 3.72466  Log(L/Lsun)= 1.80090  Age=     0.04719
+ in gettau
+   204  #SHELLS=3218  LogTeff= 3.72457  Log(L/Lsun)= 1.80215  Age=     0.04741
+ in gettau
+   205  #SHELLS=3219  LogTeff= 3.72448  Log(L/Lsun)= 1.80342  Age=     0.04763
+ in gettau
+   206  #SHELLS=3219  LogTeff= 3.72438  Log(L/Lsun)= 1.80470  Age=     0.04786
+ in gettau
+   207  #SHELLS=3219  LogTeff= 3.72429  Log(L/Lsun)= 1.80599  Age=     0.04808
+ in gettau
+   208  #SHELLS=3219  LogTeff= 3.72419  Log(L/Lsun)= 1.80729  Age=     0.04830
+ in gettau
+   209  #SHELLS=3220  LogTeff= 3.72417  Log(L/Lsun)= 1.80806  Age=     0.04852
+ in gettau
+   210  #SHELLS=3220  LogTeff= 3.72418  Log(L/Lsun)= 1.80844  Age=     0.04875
+ in gettau
+   211  #SHELLS=3220  LogTeff= 3.72413  Log(L/Lsun)= 1.80924  Age=     0.04897
+ in gettau
+   212  #SHELLS=3220  LogTeff= 3.72405  Log(L/Lsun)= 1.81040  Age=     0.04919
+ in gettau
+   213  #SHELLS=3220  LogTeff= 3.72396  Log(L/Lsun)= 1.81171  Age=     0.04942
+ in gettau
+   214  #SHELLS=3220  LogTeff= 3.72386  Log(L/Lsun)= 1.81307  Age=     0.04964
+ in gettau
+   215  #SHELLS=3221  LogTeff= 3.72375  Log(L/Lsun)= 1.81444  Age=     0.04986
+ in gettau
+   216  #SHELLS=3221  LogTeff= 3.72365  Log(L/Lsun)= 1.81582  Age=     0.05008
+ in gettau
+   217  #SHELLS=3222  LogTeff= 3.72355  Log(L/Lsun)= 1.81722  Age=     0.05031
+ in gettau
+   218  #SHELLS=3222  LogTeff= 3.72344  Log(L/Lsun)= 1.81863  Age=     0.05053
+ in gettau
+   219  #SHELLS=3222  LogTeff= 3.72334  Log(L/Lsun)= 1.82005  Age=     0.05075
+ in gettau
+   220  #SHELLS=3221  LogTeff= 3.72323  Log(L/Lsun)= 1.82148  Age=     0.05098
+ in gettau
+   221  #SHELLS=3222  LogTeff= 3.72312  Log(L/Lsun)= 1.82293  Age=     0.05120
+ in gettau
+   222  #SHELLS=3222  LogTeff= 3.72301  Log(L/Lsun)= 1.82439  Age=     0.05142
+ in gettau
+   223  #SHELLS=3223  LogTeff= 3.72290  Log(L/Lsun)= 1.82587  Age=     0.05164
+ in gettau
+   224  #SHELLS=3222  LogTeff= 3.72279  Log(L/Lsun)= 1.82736  Age=     0.05186
+ in gettau
+   225  #SHELLS=3223  LogTeff= 3.72268  Log(L/Lsun)= 1.82886  Age=     0.05209
+ in gettau
+   226  #SHELLS=3223  LogTeff= 3.72256  Log(L/Lsun)= 1.83038  Age=     0.05231
+ in gettau
+   227  #SHELLS=3223  LogTeff= 3.72245  Log(L/Lsun)= 1.83191  Age=     0.05253
+ in gettau
+   228  #SHELLS=3224  LogTeff= 3.72233  Log(L/Lsun)= 1.83346  Age=     0.05275
+ in gettau
+   229  #SHELLS=3224  LogTeff= 3.72221  Log(L/Lsun)= 1.83502  Age=     0.05297
+ in gettau
+   230  #SHELLS=3225  LogTeff= 3.72209  Log(L/Lsun)= 1.83661  Age=     0.05319
+ in gettau
+   231  #SHELLS=3224  LogTeff= 3.72197  Log(L/Lsun)= 1.83820  Age=     0.05341
+ in gettau
+   232  #SHELLS=3225  LogTeff= 3.72184  Log(L/Lsun)= 1.83982  Age=     0.05364
+ in gettau
+   233  #SHELLS=3225  LogTeff= 3.72172  Log(L/Lsun)= 1.84145  Age=     0.05386
+ in gettau
+   234  #SHELLS=3225  LogTeff= 3.72159  Log(L/Lsun)= 1.84310  Age=     0.05408
+ in gettau
+   235  #SHELLS=3226  LogTeff= 3.72146  Log(L/Lsun)= 1.84476  Age=     0.05430
+ in gettau
+   236  #SHELLS=3226  LogTeff= 3.72134  Log(L/Lsun)= 1.84645  Age=     0.05452
+ in gettau
+   237  #SHELLS=3227  LogTeff= 3.72120  Log(L/Lsun)= 1.84815  Age=     0.05474
+ in gettau
+   238  #SHELLS=3228  LogTeff= 3.72107  Log(L/Lsun)= 1.84987  Age=     0.05496
+ in gettau
+   239  #SHELLS=3228  LogTeff= 3.72093  Log(L/Lsun)= 1.85161  Age=     0.05518
+ in gettau
+   240  #SHELLS=3228  LogTeff= 3.72080  Log(L/Lsun)= 1.85337  Age=     0.05540
+ in gettau
+   241  #SHELLS=3229  LogTeff= 3.72066  Log(L/Lsun)= 1.85513  Age=     0.05562
+ in gettau
+   242  #SHELLS=3228  LogTeff= 3.72064  Log(L/Lsun)= 1.85594  Age=     0.05583
+ in gettau
+   243  #SHELLS=3228  LogTeff= 3.72068  Log(L/Lsun)= 1.85611  Age=     0.05605
+ in gettau
+   244  #SHELLS=3228  LogTeff= 3.72074  Log(L/Lsun)= 1.85603  Age=     0.05626
+ in gettau
+   245  #SHELLS=3228  LogTeff= 3.72070  Log(L/Lsun)= 1.85686  Age=     0.05648
+ in gettau
+   246  #SHELLS=3229  LogTeff= 3.72059  Log(L/Lsun)= 1.85832  Age=     0.05670
+ in gettau
+   247  #SHELLS=3229  LogTeff= 3.72045  Log(L/Lsun)= 1.86006  Age=     0.05691
+ in gettau
+   248  #SHELLS=3230  LogTeff= 3.72031  Log(L/Lsun)= 1.86187  Age=     0.05712
+ in gettau
+   249  #SHELLS=3231  LogTeff= 3.72016  Log(L/Lsun)= 1.86371  Age=     0.05734
+ in gettau
+   250  #SHELLS=3229  LogTeff= 3.72001  Log(L/Lsun)= 1.86556  Age=     0.05755
+ in gettau
+   251  #SHELLS=3230  LogTeff= 3.71987  Log(L/Lsun)= 1.86742  Age=     0.05776
+ in gettau
+   252  #SHELLS=3231  LogTeff= 3.71972  Log(L/Lsun)= 1.86928  Age=     0.05797
+ in gettau
+   253  #SHELLS=3230  LogTeff= 3.71957  Log(L/Lsun)= 1.87116  Age=     0.05818
+ in gettau
+   254  #SHELLS=3231  LogTeff= 3.71942  Log(L/Lsun)= 1.87305  Age=     0.05838
+ in gettau
+   255  #SHELLS=3232  LogTeff= 3.71927  Log(L/Lsun)= 1.87494  Age=     0.05859
+ in gettau
+   256  #SHELLS=3231  LogTeff= 3.71911  Log(L/Lsun)= 1.87686  Age=     0.05879
+ in gettau
+   257  #SHELLS=3232  LogTeff= 3.71896  Log(L/Lsun)= 1.87878  Age=     0.05899
+ in gettau
+   258  #SHELLS=3232  LogTeff= 3.71880  Log(L/Lsun)= 1.88072  Age=     0.05920
+ in gettau
+   259  #SHELLS=3233  LogTeff= 3.71865  Log(L/Lsun)= 1.88266  Age=     0.05940
+ in gettau
+   260  #SHELLS=3233  LogTeff= 3.71849  Log(L/Lsun)= 1.88462  Age=     0.05960
+ in gettau
+   261  #SHELLS=3234  LogTeff= 3.71833  Log(L/Lsun)= 1.88660  Age=     0.05979
+ in gettau
+   262  #SHELLS=3235  LogTeff= 3.71817  Log(L/Lsun)= 1.88858  Age=     0.05999
+ in gettau
+   263  #SHELLS=3234  LogTeff= 3.71801  Log(L/Lsun)= 1.89058  Age=     0.06019
+ in gettau
+   264  #SHELLS=3235  LogTeff= 3.71784  Log(L/Lsun)= 1.89259  Age=     0.06038
+ in gettau
+   265  #SHELLS=3235  LogTeff= 3.71768  Log(L/Lsun)= 1.89462  Age=     0.06057
+ in gettau
+   266  #SHELLS=3236  LogTeff= 3.71751  Log(L/Lsun)= 1.89665  Age=     0.06077
+ in gettau
+   267  #SHELLS=3237  LogTeff= 3.71735  Log(L/Lsun)= 1.89871  Age=     0.06096
+ in gettau
+   268  #SHELLS=3237  LogTeff= 3.71718  Log(L/Lsun)= 1.90077  Age=     0.06115
+ in gettau
+   269  #SHELLS=3237  LogTeff= 3.71701  Log(L/Lsun)= 1.90285  Age=     0.06134
+ in gettau
+   270  #SHELLS=3238  LogTeff= 3.71684  Log(L/Lsun)= 1.90494  Age=     0.06152
+ in gettau
+   271  #SHELLS=3239  LogTeff= 3.71667  Log(L/Lsun)= 1.90704  Age=     0.06171
+ in gettau
+   272  #SHELLS=3238  LogTeff= 3.71649  Log(L/Lsun)= 1.90916  Age=     0.06190
+ in gettau
+   273  #SHELLS=3238  LogTeff= 3.71632  Log(L/Lsun)= 1.91130  Age=     0.06208
+ in gettau
+   274  #SHELLS=3239  LogTeff= 3.71614  Log(L/Lsun)= 1.91344  Age=     0.06226
+ in gettau
+   275  #SHELLS=3239  LogTeff= 3.71596  Log(L/Lsun)= 1.91561  Age=     0.06244
+ in gettau
+   276  #SHELLS=3240  LogTeff= 3.71579  Log(L/Lsun)= 1.91778  Age=     0.06262
+ in gettau
+   277  #SHELLS=3240  LogTeff= 3.71561  Log(L/Lsun)= 1.91997  Age=     0.06280
+ in gettau
+   278  #SHELLS=3240  LogTeff= 3.71542  Log(L/Lsun)= 1.92218  Age=     0.06298
+ in gettau
+   279  #SHELLS=3241  LogTeff= 3.71524  Log(L/Lsun)= 1.92440  Age=     0.06316
+ in gettau
+   280  #SHELLS=3242  LogTeff= 3.71506  Log(L/Lsun)= 1.92663  Age=     0.06333
+ in gettau
+   281  #SHELLS=3242  LogTeff= 3.71487  Log(L/Lsun)= 1.92888  Age=     0.06351
+ in gettau
+   282  #SHELLS=3243  LogTeff= 3.71488  Log(L/Lsun)= 1.92940  Age=     0.06368
+ in gettau
+   283  #SHELLS=3243  LogTeff= 3.71557  Log(L/Lsun)= 1.92375  Age=     0.06386
+ in gettau
+   284  #SHELLS=3241  LogTeff= 3.71781  Log(L/Lsun)= 1.90433  Age=     0.06403
+ in gettau
+   285  #SHELLS=3239  LogTeff= 3.72166  Log(L/Lsun)= 1.87158  Age=     0.06422
+ in gettau
+   286  #SHELLS=3232  LogTeff= 3.72427  Log(L/Lsun)= 1.84880  Age=     0.06437
+ in gettau
+   287  #SHELLS=3225  LogTeff= 3.72549  Log(L/Lsun)= 1.83735  Age=     0.06448
+ in gettau
+   288  #SHELLS=3222  LogTeff= 3.72607  Log(L/Lsun)= 1.83175  Age=     0.06461
+ in gettau
+   289  #SHELLS=3220  LogTeff= 3.72619  Log(L/Lsun)= 1.83050  Age=     0.06479
+ in gettau
+   290  #SHELLS=3220  LogTeff= 3.72607  Log(L/Lsun)= 1.83172  Age=     0.06501
+ in gettau
+   291  #SHELLS=3219  LogTeff= 3.72589  Log(L/Lsun)= 1.83363  Age=     0.06525
+ in gettau
+   292  #SHELLS=3220  LogTeff= 3.72573  Log(L/Lsun)= 1.83551  Age=     0.06549
+ in gettau
+   293  #SHELLS=3221  LogTeff= 3.72557  Log(L/Lsun)= 1.83732  Age=     0.06573
+ in gettau
+   294  #SHELLS=3221  LogTeff= 3.72542  Log(L/Lsun)= 1.83910  Age=     0.06597
+ in gettau
+   295  #SHELLS=3222  LogTeff= 3.72527  Log(L/Lsun)= 1.84086  Age=     0.06620
+ in gettau
+   296  #SHELLS=3223  LogTeff= 3.72512  Log(L/Lsun)= 1.84262  Age=     0.06644
+ in gettau
+   297  #SHELLS=3222  LogTeff= 3.72498  Log(L/Lsun)= 1.84438  Age=     0.06667
+ in gettau
+   298  #SHELLS=3222  LogTeff= 3.72483  Log(L/Lsun)= 1.84613  Age=     0.06690
+ in gettau
+   299  #SHELLS=3223  LogTeff= 3.72468  Log(L/Lsun)= 1.84788  Age=     0.06713
+ in gettau
+   300  #SHELLS=3223  LogTeff= 3.72453  Log(L/Lsun)= 1.84963  Age=     0.06736
+ in gettau
+   301  #SHELLS=3223  LogTeff= 3.72439  Log(L/Lsun)= 1.85137  Age=     0.06759
+ in gettau
+   302  #SHELLS=3224  LogTeff= 3.72424  Log(L/Lsun)= 1.85312  Age=     0.06782
+ in gettau
+   303  #SHELLS=3224  LogTeff= 3.72410  Log(L/Lsun)= 1.85486  Age=     0.06804
+ in gettau
+   304  #SHELLS=3224  LogTeff= 3.72395  Log(L/Lsun)= 1.85659  Age=     0.06827
+ in gettau
+   305  #SHELLS=3225  LogTeff= 3.72381  Log(L/Lsun)= 1.85833  Age=     0.06849
+ in gettau
+   306  #SHELLS=3224  LogTeff= 3.72367  Log(L/Lsun)= 1.86006  Age=     0.06871
+ in gettau
+   307  #SHELLS=3225  LogTeff= 3.72352  Log(L/Lsun)= 1.86180  Age=     0.06893
+ in gettau
+   308  #SHELLS=3226  LogTeff= 3.72338  Log(L/Lsun)= 1.86353  Age=     0.06915
+ in gettau
+   309  #SHELLS=3226  LogTeff= 3.72324  Log(L/Lsun)= 1.86526  Age=     0.06937
+ in gettau
+   310  #SHELLS=3227  LogTeff= 3.72310  Log(L/Lsun)= 1.86699  Age=     0.06959
+ in gettau
+   311  #SHELLS=3227  LogTeff= 3.72296  Log(L/Lsun)= 1.86871  Age=     0.06980
+ in gettau
+   312  #SHELLS=3227  LogTeff= 3.72282  Log(L/Lsun)= 1.87044  Age=     0.07002
+ in gettau
+   313  #SHELLS=3227  LogTeff= 3.72268  Log(L/Lsun)= 1.87217  Age=     0.07023
+ in gettau
+   314  #SHELLS=3228  LogTeff= 3.72254  Log(L/Lsun)= 1.87390  Age=     0.07044
+ in gettau
+   315  #SHELLS=3228  LogTeff= 3.72240  Log(L/Lsun)= 1.87563  Age=     0.07066
+ in gettau
+   316  #SHELLS=3229  LogTeff= 3.72226  Log(L/Lsun)= 1.87736  Age=     0.07087
+ in gettau
+   317  #SHELLS=3229  LogTeff= 3.72212  Log(L/Lsun)= 1.87909  Age=     0.07108
+ in gettau
+   318  #SHELLS=3229  LogTeff= 3.72198  Log(L/Lsun)= 1.88082  Age=     0.07128
+ in gettau
+   319  #SHELLS=3230  LogTeff= 3.72184  Log(L/Lsun)= 1.88256  Age=     0.07149
+ in gettau
+   320  #SHELLS=3229  LogTeff= 3.72170  Log(L/Lsun)= 1.88430  Age=     0.07170
+ in gettau
+   321  #SHELLS=3230  LogTeff= 3.72156  Log(L/Lsun)= 1.88604  Age=     0.07190
+ in gettau
+   322  #SHELLS=3231  LogTeff= 3.72142  Log(L/Lsun)= 1.88778  Age=     0.07210
+ in gettau
+   323  #SHELLS=3230  LogTeff= 3.72127  Log(L/Lsun)= 1.88953  Age=     0.07231
+ in gettau
+   324  #SHELLS=3231  LogTeff= 3.72113  Log(L/Lsun)= 1.89129  Age=     0.07251
+ in gettau
+   325  #SHELLS=3232  LogTeff= 3.72099  Log(L/Lsun)= 1.89304  Age=     0.07271
+ in gettau
+   326  #SHELLS=3230  LogTeff= 3.72085  Log(L/Lsun)= 1.89480  Age=     0.07291
+ in gettau
+   327  #SHELLS=3231  LogTeff= 3.72071  Log(L/Lsun)= 1.89657  Age=     0.07311
+ in gettau
+   328  #SHELLS=3232  LogTeff= 3.72057  Log(L/Lsun)= 1.89834  Age=     0.07330
+ in gettau
+   329  #SHELLS=3232  LogTeff= 3.72042  Log(L/Lsun)= 1.90012  Age=     0.07350
+ in gettau
+   330  #SHELLS=3233  LogTeff= 3.72028  Log(L/Lsun)= 1.90191  Age=     0.07369
+ in gettau
+   331  #SHELLS=3234  LogTeff= 3.72013  Log(L/Lsun)= 1.90370  Age=     0.07389
+ in gettau
+   332  #SHELLS=3234  LogTeff= 3.71999  Log(L/Lsun)= 1.90550  Age=     0.07408
+ in gettau
+   333  #SHELLS=3234  LogTeff= 3.71984  Log(L/Lsun)= 1.90731  Age=     0.07427
+ in gettau
+   334  #SHELLS=3234  LogTeff= 3.71970  Log(L/Lsun)= 1.90913  Age=     0.07446
+ in gettau
+   335  #SHELLS=3234  LogTeff= 3.71955  Log(L/Lsun)= 1.91095  Age=     0.07465
+ in gettau
+   336  #SHELLS=3235  LogTeff= 3.71940  Log(L/Lsun)= 1.91278  Age=     0.07484
+ in gettau
+   337  #SHELLS=3236  LogTeff= 3.71925  Log(L/Lsun)= 1.91462  Age=     0.07503
+ in gettau
+   338  #SHELLS=3237  LogTeff= 3.71910  Log(L/Lsun)= 1.91647  Age=     0.07522
+ in gettau
+   339  #SHELLS=3236  LogTeff= 3.71895  Log(L/Lsun)= 1.91833  Age=     0.07540
+ in gettau
+   340  #SHELLS=3237  LogTeff= 3.71880  Log(L/Lsun)= 1.92020  Age=     0.07559
+ in gettau
+   341  #SHELLS=3237  LogTeff= 3.71864  Log(L/Lsun)= 1.92208  Age=     0.07577
+ in gettau
+   342  #SHELLS=3237  LogTeff= 3.71849  Log(L/Lsun)= 1.92397  Age=     0.07595
+ in gettau
+   343  #SHELLS=3238  LogTeff= 3.71833  Log(L/Lsun)= 1.92587  Age=     0.07613
+ in gettau
+   344  #SHELLS=3239  LogTeff= 3.71818  Log(L/Lsun)= 1.92778  Age=     0.07631
+ in gettau
+   345  #SHELLS=3239  LogTeff= 3.71802  Log(L/Lsun)= 1.92970  Age=     0.07649
+ in gettau
+   346  #SHELLS=3238  LogTeff= 3.71786  Log(L/Lsun)= 1.93163  Age=     0.07667
+ in gettau
+   347  #SHELLS=3239  LogTeff= 3.71770  Log(L/Lsun)= 1.93357  Age=     0.07685
+ in gettau
+   348  #SHELLS=3239  LogTeff= 3.71754  Log(L/Lsun)= 1.93553  Age=     0.07702
+ in gettau
+   349  #SHELLS=3239  LogTeff= 3.71738  Log(L/Lsun)= 1.93749  Age=     0.07720
+ in gettau
+   350  #SHELLS=3240  LogTeff= 3.71721  Log(L/Lsun)= 1.93947  Age=     0.07737
+ in gettau
+   351  #SHELLS=3240  LogTeff= 3.71705  Log(L/Lsun)= 1.94146  Age=     0.07754
+ in gettau
+   352  #SHELLS=3241  LogTeff= 3.71688  Log(L/Lsun)= 1.94346  Age=     0.07772
+ in gettau
+   353  #SHELLS=3241  LogTeff= 3.71672  Log(L/Lsun)= 1.94548  Age=     0.07789
+ in gettau
+   354  #SHELLS=3241  LogTeff= 3.71655  Log(L/Lsun)= 1.94750  Age=     0.07806
+ in gettau
+   355  #SHELLS=3242  LogTeff= 3.71638  Log(L/Lsun)= 1.94954  Age=     0.07823
+ in gettau
+   356  #SHELLS=3243  LogTeff= 3.71621  Log(L/Lsun)= 1.95159  Age=     0.07839
+ in gettau
+   357  #SHELLS=3243  LogTeff= 3.71604  Log(L/Lsun)= 1.95366  Age=     0.07856
+ in gettau
+   358  #SHELLS=3243  LogTeff= 3.71586  Log(L/Lsun)= 1.95574  Age=     0.07873
+ in gettau
+   359  #SHELLS=3244  LogTeff= 3.71569  Log(L/Lsun)= 1.95783  Age=     0.07889
+ in gettau
+   360  #SHELLS=3244  LogTeff= 3.71551  Log(L/Lsun)= 1.95993  Age=     0.07905
+ in gettau
+   361  #SHELLS=3245  LogTeff= 3.71533  Log(L/Lsun)= 1.96205  Age=     0.07922
+ in gettau
+   362  #SHELLS=3246  LogTeff= 3.71515  Log(L/Lsun)= 1.96418  Age=     0.07938
+ in gettau
+   363  #SHELLS=3245  LogTeff= 3.71497  Log(L/Lsun)= 1.96632  Age=     0.07954
+ in gettau
+   364  #SHELLS=3246  LogTeff= 3.71479  Log(L/Lsun)= 1.96848  Age=     0.07970
+ in gettau
+   365  #SHELLS=3247  LogTeff= 3.71461  Log(L/Lsun)= 1.97065  Age=     0.07986
+ in gettau
+   366  #SHELLS=3247  LogTeff= 3.71442  Log(L/Lsun)= 1.97284  Age=     0.08002
+ in gettau
+   367  #SHELLS=3247  LogTeff= 3.71424  Log(L/Lsun)= 1.97504  Age=     0.08017
+ in gettau
+   368  #SHELLS=3247  LogTeff= 3.71405  Log(L/Lsun)= 1.97725  Age=     0.08033
+ in gettau
+   369  #SHELLS=3247  LogTeff= 3.71386  Log(L/Lsun)= 1.97948  Age=     0.08048
+ in gettau
+   370  #SHELLS=3248  LogTeff= 3.71367  Log(L/Lsun)= 1.98173  Age=     0.08064
+ in gettau
+   371  #SHELLS=3248  LogTeff= 3.71348  Log(L/Lsun)= 1.98399  Age=     0.08079
+ in gettau
+   372  #SHELLS=3249  LogTeff= 3.71329  Log(L/Lsun)= 1.98626  Age=     0.08094
+ in gettau
+   373  #SHELLS=3250  LogTeff= 3.71309  Log(L/Lsun)= 1.98855  Age=     0.08109
+ in gettau
+   374  #SHELLS=3251  LogTeff= 3.71289  Log(L/Lsun)= 1.99085  Age=     0.08124
+ in gettau
+   375  #SHELLS=3251  LogTeff= 3.71270  Log(L/Lsun)= 1.99317  Age=     0.08139
+ in gettau
+   376  #SHELLS=3250  LogTeff= 3.71250  Log(L/Lsun)= 1.99551  Age=     0.08153
+ in gettau
+   377  #SHELLS=3251  LogTeff= 3.71229  Log(L/Lsun)= 1.99786  Age=     0.08168
+ in gettau
+   378  #SHELLS=3252  LogTeff= 3.71209  Log(L/Lsun)= 2.00023  Age=     0.08183
+ in gettau
+   379  #SHELLS=3253  LogTeff= 3.71189  Log(L/Lsun)= 2.00261  Age=     0.08197
+ in gettau
+   380  #SHELLS=3253  LogTeff= 3.71168  Log(L/Lsun)= 2.00501  Age=     0.08211
+ in gettau
+   381  #SHELLS=3253  LogTeff= 3.71147  Log(L/Lsun)= 2.00743  Age=     0.08226
+ in gettau
+   382  #SHELLS=3254  LogTeff= 3.71127  Log(L/Lsun)= 2.00986  Age=     0.08240
+ in gettau
+   383  #SHELLS=3255  LogTeff= 3.71106  Log(L/Lsun)= 2.01231  Age=     0.08254
+ in gettau
+   384  #SHELLS=3256  LogTeff= 3.71084  Log(L/Lsun)= 2.01478  Age=     0.08268
+ in gettau
+   385  #SHELLS=3256  LogTeff= 3.71063  Log(L/Lsun)= 2.01726  Age=     0.08282
+ in gettau
+   386  #SHELLS=3255  LogTeff= 3.71041  Log(L/Lsun)= 2.01977  Age=     0.08295
+ in gettau
+   387  #SHELLS=3256  LogTeff= 3.71020  Log(L/Lsun)= 2.02228  Age=     0.08309
+ in gettau
+   388  #SHELLS=3257  LogTeff= 3.70998  Log(L/Lsun)= 2.02482  Age=     0.08322
+ in gettau
+   389  #SHELLS=3257  LogTeff= 3.70976  Log(L/Lsun)= 2.02737  Age=     0.08336
+ in gettau
+   390  #SHELLS=3258  LogTeff= 3.70954  Log(L/Lsun)= 2.02995  Age=     0.08349
+ in gettau
+   391  #SHELLS=3257  LogTeff= 3.70931  Log(L/Lsun)= 2.03254  Age=     0.08362
+ in gettau
+   392  #SHELLS=3258  LogTeff= 3.70909  Log(L/Lsun)= 2.03515  Age=     0.08376
+ in gettau
+   393  #SHELLS=3259  LogTeff= 3.70886  Log(L/Lsun)= 2.03778  Age=     0.08389
+ in gettau
+   394  #SHELLS=3259  LogTeff= 3.70863  Log(L/Lsun)= 2.04042  Age=     0.08402
+ in gettau
+   395  #SHELLS=3260  LogTeff= 3.70840  Log(L/Lsun)= 2.04309  Age=     0.08414
+ in gettau
+   396  #SHELLS=3262  LogTeff= 3.70816  Log(L/Lsun)= 2.04577  Age=     0.08427
+ in gettau
+   397  #SHELLS=3262  LogTeff= 3.70793  Log(L/Lsun)= 2.04848  Age=     0.08440
+ in gettau
+   398  #SHELLS=3262  LogTeff= 3.70769  Log(L/Lsun)= 2.05120  Age=     0.08452
+ in gettau
+   399  #SHELLS=3263  LogTeff= 3.70745  Log(L/Lsun)= 2.05394  Age=     0.08465
+ in gettau
+   400  #SHELLS=3264  LogTeff= 3.70722  Log(L/Lsun)= 2.05668  Age=     0.08477
+ in gettau
+   401  #SHELLS=3264  LogTeff= 3.70698  Log(L/Lsun)= 2.05938  Age=     0.08489
+ in gettau
+   402  #SHELLS=3264  LogTeff= 3.70675  Log(L/Lsun)= 2.06206  Age=     0.08501
+ in gettau
+   403  #SHELLS=3265  LogTeff= 3.70652  Log(L/Lsun)= 2.06470  Age=     0.08512
+ in gettau
+   404  #SHELLS=3265  LogTeff= 3.70629  Log(L/Lsun)= 2.06731  Age=     0.08523
+ in gettau
+   405  #SHELLS=3265  LogTeff= 3.70606  Log(L/Lsun)= 2.06989  Age=     0.08533
+ in gettau
+   406  #SHELLS=3266  LogTeff= 3.70584  Log(L/Lsun)= 2.07245  Age=     0.08544
+ in gettau
+   407  #SHELLS=3267  LogTeff= 3.70562  Log(L/Lsun)= 2.07497  Age=     0.08554
+ in gettau
+   408  #SHELLS=3267  LogTeff= 3.70540  Log(L/Lsun)= 2.07746  Age=     0.08564
+ in gettau
+   409  #SHELLS=3267  LogTeff= 3.70519  Log(L/Lsun)= 2.07992  Age=     0.08574
+ in gettau
+   410  #SHELLS=3268  LogTeff= 3.70497  Log(L/Lsun)= 2.08235  Age=     0.08583
+ in gettau
+   411  #SHELLS=3268  LogTeff= 3.70476  Log(L/Lsun)= 2.08475  Age=     0.08592
+ in gettau
+   412  #SHELLS=3269  LogTeff= 3.70456  Log(L/Lsun)= 2.08712  Age=     0.08601
+ in gettau
+   413  #SHELLS=3269  LogTeff= 3.70435  Log(L/Lsun)= 2.08946  Age=     0.08610
+ in gettau
+   414  #SHELLS=3270  LogTeff= 3.70415  Log(L/Lsun)= 2.09178  Age=     0.08618
+ in gettau
+   415  #SHELLS=3270  LogTeff= 3.70395  Log(L/Lsun)= 2.09406  Age=     0.08627
+ in gettau
+   416  #SHELLS=3271  LogTeff= 3.70375  Log(L/Lsun)= 2.09632  Age=     0.08635
+ in gettau
+   417  #SHELLS=3272  LogTeff= 3.70355  Log(L/Lsun)= 2.09855  Age=     0.08643
+ in gettau
+   418  #SHELLS=3272  LogTeff= 3.70336  Log(L/Lsun)= 2.10076  Age=     0.08651
+ in gettau
+   419  #SHELLS=3272  LogTeff= 3.70317  Log(L/Lsun)= 2.10293  Age=     0.08658
+ in gettau
+   420  #SHELLS=3273  LogTeff= 3.70298  Log(L/Lsun)= 2.10508  Age=     0.08666
+ in gettau
+   421  #SHELLS=3274  LogTeff= 3.70279  Log(L/Lsun)= 2.10721  Age=     0.08673
+ in gettau
+   422  #SHELLS=3272  LogTeff= 3.70261  Log(L/Lsun)= 2.10930  Age=     0.08680
+ in gettau
+   423  #SHELLS=3273  LogTeff= 3.70243  Log(L/Lsun)= 2.11138  Age=     0.08687
+ in gettau
+   424  #SHELLS=3274  LogTeff= 3.70225  Log(L/Lsun)= 2.11342  Age=     0.08694
+ in gettau
+   425  #SHELLS=3274  LogTeff= 3.70207  Log(L/Lsun)= 2.11544  Age=     0.08700
+ in gettau
+   426  #SHELLS=3275  LogTeff= 3.70189  Log(L/Lsun)= 2.11744  Age=     0.08707
+ in gettau
+   427  #SHELLS=3275  LogTeff= 3.70172  Log(L/Lsun)= 2.11941  Age=     0.08713
+ in gettau
+   428  #SHELLS=3276  LogTeff= 3.70155  Log(L/Lsun)= 2.12136  Age=     0.08720
+ in gettau
+   429  #SHELLS=3276  LogTeff= 3.70138  Log(L/Lsun)= 2.12328  Age=     0.08726
+ in gettau
+   430  #SHELLS=3277  LogTeff= 3.70121  Log(L/Lsun)= 2.12517  Age=     0.08732
+ in gettau
+   431  #SHELLS=3277  LogTeff= 3.70105  Log(L/Lsun)= 2.12705  Age=     0.08738
+ in gettau
+   432  #SHELLS=3276  LogTeff= 3.70089  Log(L/Lsun)= 2.12890  Age=     0.08743
+ in gettau
+   433  #SHELLS=3277  LogTeff= 3.70073  Log(L/Lsun)= 2.13072  Age=     0.08749
+ in gettau
+   434  #SHELLS=3278  LogTeff= 3.70057  Log(L/Lsun)= 2.13252  Age=     0.08755
+ in gettau
+   435  #SHELLS=3279  LogTeff= 3.70041  Log(L/Lsun)= 2.13430  Age=     0.08760
+ in gettau
+   436  #SHELLS=3279  LogTeff= 3.70026  Log(L/Lsun)= 2.13606  Age=     0.08765
+ in gettau
+   437  #SHELLS=3280  LogTeff= 3.70011  Log(L/Lsun)= 2.13779  Age=     0.08771
+ in gettau
+   438  #SHELLS=3280  LogTeff= 3.69996  Log(L/Lsun)= 2.13950  Age=     0.08776
+ in gettau
+   439  #SHELLS=3280  LogTeff= 3.69981  Log(L/Lsun)= 2.14119  Age=     0.08781
+ in gettau
+   440  #SHELLS=3281  LogTeff= 3.69966  Log(L/Lsun)= 2.14285  Age=     0.08786
+ in gettau
+   441  #SHELLS=3279  LogTeff= 3.69952  Log(L/Lsun)= 2.14449  Age=     0.08791
+ in gettau
+   442  #SHELLS=3280  LogTeff= 3.69938  Log(L/Lsun)= 2.14612  Age=     0.08796
+ in gettau
+   443  #SHELLS=3281  LogTeff= 3.69924  Log(L/Lsun)= 2.14771  Age=     0.08800
+ in gettau
+   444  #SHELLS=3280  LogTeff= 3.69910  Log(L/Lsun)= 2.14929  Age=     0.08805
+ in gettau
+   445  #SHELLS=3281  LogTeff= 3.69896  Log(L/Lsun)= 2.15084  Age=     0.08810
+ in gettau
+   446  #SHELLS=3281  LogTeff= 3.69883  Log(L/Lsun)= 2.15238  Age=     0.08814
+ in gettau
+   447  #SHELLS=3282  LogTeff= 3.69870  Log(L/Lsun)= 2.15389  Age=     0.08818
+ in gettau
+   448  #SHELLS=3283  LogTeff= 3.69857  Log(L/Lsun)= 2.15538  Age=     0.08823
+ in gettau
+   449  #SHELLS=3283  LogTeff= 3.69844  Log(L/Lsun)= 2.15685  Age=     0.08827
+ in gettau
+   450  #SHELLS=3284  LogTeff= 3.69831  Log(L/Lsun)= 2.15830  Age=     0.08831
+ in gettau
+   451  #SHELLS=3283  LogTeff= 3.69819  Log(L/Lsun)= 2.15972  Age=     0.08835
+ in gettau
+   452  #SHELLS=3284  LogTeff= 3.69806  Log(L/Lsun)= 2.16113  Age=     0.08840
+ in gettau
+   453  #SHELLS=3283  LogTeff= 3.69794  Log(L/Lsun)= 2.16252  Age=     0.08844
+ in gettau
+   454  #SHELLS=3284  LogTeff= 3.69782  Log(L/Lsun)= 2.16388  Age=     0.08848
+ in gettau
+   455  #SHELLS=3284  LogTeff= 3.69771  Log(L/Lsun)= 2.16523  Age=     0.08851
+ in gettau
+   456  #SHELLS=3285  LogTeff= 3.69759  Log(L/Lsun)= 2.16655  Age=     0.08855
+ in gettau
+   457  #SHELLS=3285  LogTeff= 3.69748  Log(L/Lsun)= 2.16786  Age=     0.08859
+ in gettau
+   458  #SHELLS=3286  LogTeff= 3.69737  Log(L/Lsun)= 2.16914  Age=     0.08863
+ in gettau
+   459  #SHELLS=3286  LogTeff= 3.69726  Log(L/Lsun)= 2.17041  Age=     0.08867
+ in gettau
+   460  #SHELLS=3286  LogTeff= 3.69715  Log(L/Lsun)= 2.17166  Age=     0.08870
+ in gettau
+   461  #SHELLS=3285  LogTeff= 3.69704  Log(L/Lsun)= 2.17288  Age=     0.08874
+ in gettau
+   462  #SHELLS=3286  LogTeff= 3.69694  Log(L/Lsun)= 2.17409  Age=     0.08877
+ in gettau
+   463  #SHELLS=3286  LogTeff= 3.69684  Log(L/Lsun)= 2.17528  Age=     0.08881
+ in gettau
+   464  #SHELLS=3287  LogTeff= 3.69674  Log(L/Lsun)= 2.17645  Age=     0.08884
+ in gettau
+   465  #SHELLS=3287  LogTeff= 3.69664  Log(L/Lsun)= 2.17760  Age=     0.08888
+ in gettau
+   466  #SHELLS=3288  LogTeff= 3.69654  Log(L/Lsun)= 2.17873  Age=     0.08891
+ in gettau
+   467  #SHELLS=3287  LogTeff= 3.69645  Log(L/Lsun)= 2.17985  Age=     0.08894
+ in gettau
+   468  #SHELLS=3287  LogTeff= 3.69635  Log(L/Lsun)= 2.18095  Age=     0.08898
+ in gettau
+   469  #SHELLS=3287  LogTeff= 3.69626  Log(L/Lsun)= 2.18203  Age=     0.08901
+ in gettau
+   470  #SHELLS=3287  LogTeff= 3.69617  Log(L/Lsun)= 2.18310  Age=     0.08904
+ in gettau
+   471  #SHELLS=3288  LogTeff= 3.69608  Log(L/Lsun)= 2.18415  Age=     0.08907
+ in gettau
+   472  #SHELLS=3288  LogTeff= 3.69599  Log(L/Lsun)= 2.18519  Age=     0.08911
+ in gettau
+   473  #SHELLS=3288  LogTeff= 3.69590  Log(L/Lsun)= 2.18622  Age=     0.08914
+ in gettau
+   474  #SHELLS=3289  LogTeff= 3.69582  Log(L/Lsun)= 2.18723  Age=     0.08917
+ in gettau
+   475  #SHELLS=3289  LogTeff= 3.69573  Log(L/Lsun)= 2.18824  Age=     0.08920
+ in gettau
+   476  #SHELLS=3290  LogTeff= 3.69565  Log(L/Lsun)= 2.18923  Age=     0.08923
+ in gettau
+   477  #SHELLS=3290  LogTeff= 3.69556  Log(L/Lsun)= 2.19021  Age=     0.08926
+ in gettau
+   478  #SHELLS=3290  LogTeff= 3.69548  Log(L/Lsun)= 2.19118  Age=     0.08929
+ in gettau
+   479  #SHELLS=3291  LogTeff= 3.69540  Log(L/Lsun)= 2.19214  Age=     0.08932
+ in gettau
+   480  #SHELLS=3290  LogTeff= 3.69532  Log(L/Lsun)= 2.19309  Age=     0.08935
+ in gettau
+   481  #SHELLS=3291  LogTeff= 3.69524  Log(L/Lsun)= 2.19403  Age=     0.08938
+ in gettau
+   482  #SHELLS=3290  LogTeff= 3.69543  Log(L/Lsun)= 2.19257  Age=     0.08941
+ in gettau
+   483  #SHELLS=3290  LogTeff= 3.69688  Log(L/Lsun)= 2.17961  Age=     0.08946
+ in gettau
+   484  #SHELLS=3289  LogTeff= 3.69584  Log(L/Lsun)= 2.18873  Age=     0.08952
+CENTRAL Y   0.0000E+00 BELOW STOP VALUE   0.2000E-03

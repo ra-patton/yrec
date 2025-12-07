@@ -14,11 +14,13 @@ if [ ! -f "$yrec" ]; then
   cd ../examples
 fi
 
+
+
 while IFS= read -r line; do
   if [[ -z "$line" || "$line" =~ ^# ]]; then
     continue
   fi
-
+  cd ../examples
   echo -n "$(date '+%Y-%m-%d %H:%M:%S') "
   read dir test <<< "$line"
   echo "Running test $test in directory $dir"
@@ -35,7 +37,11 @@ while IFS= read -r line; do
 
   echo -n "$(date '+%Y-%m-%d %H:%M:%S') "
   if [ "$1" = "S" ]; then
-    echo "Making this version the standard"
+      echo "Making this version the standard"
+      if [ ! -f standard/ ]; then
+	  mkdir standard/
+      fi
+
     if [ -f output/"$test".diff ]; then
       rm output/"$test".diff
     fi
@@ -61,10 +67,9 @@ while IFS= read -r line; do
     fi
     cd ..
   fi
-
+  cd ..
   echo
   rm fort.*
-  cd ..
 done < "testsuite.sh"
 
 echo -n "$(date '+%Y-%m-%d %H:%M:%S') "
