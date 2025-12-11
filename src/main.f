@@ -304,7 +304,7 @@ C      *    HSTOT,HT,IKUT,ISTORE,JCORE,JENV,LARGE,LC,LNEW,M,MODEL,  ! KC 2025-05
      *    HSTOT,HT,IKUT,ISTORE,JENV,LARGE,LC,LNEW,M,MODEL,
      *    NK,OMEGA,PS,QDP,QDT,QIW,R0,RS,SJTOT,SKEROT,SMASS,TEFFL,
      *    TLUMX,TRIL,TRIT,TS,VEL,HG,V)
-      IF(OMEGA(1) .EQ. 0) THEN
+      IF((OMEGA(1) .EQ. 0) .AND. (LROT)) THEN
 1611      FORMAT('LROT set to TRUE, but OMEGA(1) = 0. Stopping.',
      *           ' Initialize rotation rates or set LROT to',
      *           ' FALSE.')
@@ -564,7 +564,7 @@ C      *          HSTOT,HT,IKUT,ISTORE,JCORE,JENV,LARGE,LC,LNEW,M,MODEL,  ! KC 2
      *          HSTOT,HT,IKUT,ISTORE,JENV,LARGE,LC,LNEW,M,MODEL,
      *          NK,OMEGA,PS,QDP,QDT,QIW,R0,RS,SJTOT,SKEROT,SMASS,TEFFL,
      *          TLUMX,TRIL,TRIT,TS,VEL,HG,V)
-             IF(OMEGA(1) .EQ. 0) THEN
+             IF((OMEGA(1) .EQ. 0) .AND. (LROT)) THEN
 18               FORMAT('LROT set to TRUE, but OMEGA(1) = 0. Stopping.',
      *                  ' Initialize rotation rates or set LROT to',
      *                  ' FALSE.')
