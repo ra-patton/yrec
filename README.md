@@ -12,7 +12,7 @@ To get started using YREC, consult the **[documentation](https://yrec.readthedoc
 
 ### Software Ecosystem
 
-[YREC User Tools](https://github.com/sbyrom2/yrec_user_tools): Functions and guidelines for using the Yale Rotating Evolution Code 
+[YREC User Tools](https://github.com/avincesmedile/YREC-Wrappers): Functions and guidelines for using the Yale Rotating Evolution Code 
 
 [ISTARY](https://github.com/avincesmedile/yrec_isochrones): Isochrones and Stellar Tracks for Astrophysics Research by the YREC collaboration
 
